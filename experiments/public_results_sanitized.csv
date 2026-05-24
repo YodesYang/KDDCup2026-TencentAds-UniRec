@@ -1,0 +1,10 @@
+family,public_readout,summary
+early_baseline,baseline,Fast cleaned sequence baseline; validation gap remained large
+time_bucket_correction,positive,Corrected per-domain sequence recency treatment
+stronger_baseline,positive,More reliable temporal validation and auxiliary diagnostics
+fresh_tail_family,positive,Training and selection closer to public-adjacent tail windows
+mtl_family,positive,Click/conversion multi-task regularization improved the selected family
+checkpoint_averaging,negative_or_neutral,Exploratory side artifact; not used for final selected checkpoint
+lower_dense_lr,near_miss,Same-family variant did not change the final selection
+continued_training,near_miss,Longer same-family training did not change the final selection
+loss_weight_variant,near_miss,Objective-weight variant did not change the final selection

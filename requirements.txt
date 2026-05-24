@@ -1,0 +1,6 @@
+torch>=2.7,<3
+numpy>=2.2,<3
+pyarrow>=23,<25
+tqdm
+scikit-learn
+tensorboard

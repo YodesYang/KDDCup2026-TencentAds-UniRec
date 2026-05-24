@@ -1,0 +1,18 @@
+{
+  "_purpose": "ns_groups for T35 5-cluster (EDA-049 实证 · 保 STRUCTURAL user_ns_tokens=5)",
+  "_mode": "eda_correlation_5cluster",
+  "_source": "EXP-049 user × user Cramer V cluster (A/B/C/D) + outlier feats_15",
+  "_design": "5 clusters · maps 1-to-1 to user_ns_tokens=5 · NS Tokenizer chunk groupping aligned with EDA correlation structure",
+  "_comment": "Schema fids = 46 user_int + 14 item_int. Grouping below covers ALL schema fids.",
+  "user_ns_groups": {
+    "Cluster_A_behavior": [55, 56, 57, 58, 59, 80, 86, 1, 50, 49],
+    "Cluster_B_profile": [3, 4, 51, 52, 53, 54, 64, 65, 66, 48, 60],
+    "Cluster_C_context": [92, 93, 82, 62, 63, 89, 90, 91],
+    "Cluster_D_lowcard_id": [94, 97, 98, 104, 106, 107, 108, 109, 95, 96, 99, 100, 101, 102, 103, 105],
+    "Outlier_feats_15": [15]
+  },
+  "item_ns_groups": {
+    "Item_high_vocab": [16, 11, 7, 12, 8],
+    "Item_mid_vocab": [85, 6, 5, 10, 84, 9, 83, 13, 81]
+  }
+}

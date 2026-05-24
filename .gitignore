@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data / model artifacts
+data/
+checkpoints/
+ckpt/
+events/
+logs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.pkl
+*.npy
+*.npz
+*.jsonl
+*.csv
+!experiments/*.csv
+
+# Platform/private artifacts
+train_log.txt
+eval_log.txt
+run_*.sh
+.taiji_run.json
+predictions.json
+submission*.json
+submission*.csv
+soup_metadata.json
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
