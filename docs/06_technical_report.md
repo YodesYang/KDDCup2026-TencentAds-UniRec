@@ -4,13 +4,21 @@
 
 This report summarizes our unofficial solution notes for the **TAAC x KDD Cup 2026 Tencent Advertising Algorithm Competition, Industrial Track**.
 
-The team finished in the public leaderboard Top 6%. Exact public score, final run arguments, final validation windows, and final checkpoint-selection records are intentionally withheld from this public repository.
+| Item | Value |
+|---|---:|
+| Team rank | 32/689 |
+| Percentile | Top 4.6% |
+| Best public AUC | 0.851365 |
+| Final model family | M148 |
+| Task | Industrial advertising pCVR prediction |
+
+Final run arguments, final validation windows, and checkpoint-selection records are intentionally withheld from this public repository.
 
 ## Abstract
 
 The competition task was to predict post-click conversion probability from anonymized industrial advertising recommendation data. The data contained sparse user/item features, dense user features, and four domains of historical user behavior sequences.
 
-The main improvement did not come from a single large architectural change. Instead, it came from progressively aligning the validation setup with the temporally shifted public test distribution, then refining a sequence-based recommendation model under that validation system.
+Our final public score was **0.851365 AUC**, ranking **32/689** in the Industrial Track. The main improvement did not come from a single large architectural change. Instead, it came from progressively aligning the validation setup with the temporally shifted public test distribution, then refining a sequence-based recommendation model under that validation system.
 
 The most important technical lesson was that normal local validation AUC was often misleading. We therefore built a selection process around time-aware splits, fixed clean windows, auxiliary validation windows, and public-leaderboard calibration.
 

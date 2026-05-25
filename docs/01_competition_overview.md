@@ -10,7 +10,14 @@ The industrial track uses anonymized real-world recommendation features, includi
 
 ## Our Result
 
-The team finished in the public leaderboard Top 6%. Exact public score, final run arguments, and final checkpoint-selection records are intentionally withheld from this public repository.
+| Metric | Value |
+|---|---:|
+| Rank | 32/689 |
+| Percentile | Top 4.6% |
+| Best public AUC | 0.851365 |
+| Best model family | M148 |
+
+Final run arguments and checkpoint-selection records are intentionally withheld from this public repository.
 
 ## Main Technical Problem
 
