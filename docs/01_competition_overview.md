@@ -12,8 +12,8 @@ The industrial track uses anonymized real-world recommendation features, includi
 
 | Metric | Value |
 |---|---:|
-| Rank | 32/689 |
-| Percentile | Top 4.6% |
+| Rank | 35/689 |
+| Percentile | Top 5.1% |
 | Best public AUC | 0.851365 |
 | Best model family | M148 |
 

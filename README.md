@@ -11,8 +11,8 @@ Unofficial solution notes and reference implementation for the **TAAC x KDD Cup 
 | Item | Value |
 |---|---:|
 | Track | Industrial Track |
-| Team rank | 32/689 |
-| Percentile | Top 4.6% |
+| Team rank | 35/689 |
+| Percentile | Top 5.1% |
 | Best public AUC | 0.851365 |
 | Exact final recipe | Withheld from the public repository |
 | Task | Large-scale advertising pCVR prediction |
@@ -96,7 +96,7 @@ If you reference this repository, please cite it as an unofficial competition so
 
 ```text
 TencentUniRec-TAAC2026: Unofficial TAAC x KDD Cup 2026 Industrial Track solution notes and implementation.
-Rank 32/689, Top 4.6%, Public AUC 0.851365. Exact final recipe withheld from the public repository.
+Rank 35/689, Top 5.1%, Public AUC 0.851365. Exact final recipe withheld from the public repository.
 ```
 
 ## Disclaimer

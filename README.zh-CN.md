@@ -11,8 +11,8 @@ TAAC x KDD Cup 2026 腾讯广告算法大赛工业组的非官方方案记录与
 | 项目 | 数值 |
 |---|---:|
 | 赛道 | 工业组 |
-| 队伍排名 | 32/689 |
-| 百分位 | Top 4.6% |
+| 队伍排名 | 35/689 |
+| 百分位 | Top 5.1% |
 | 最佳 public AUC | 0.851365 |
 | 最终精确 recipe | 不在公开仓库披露 |
 | 任务 | 大规模广告 pCVR 预估 |
@@ -96,7 +96,7 @@ bash scripts/train_reference_example.sh /path/to/official/data
 
 ```text
 TencentUniRec-TAAC2026: TAAC x KDD Cup 2026 工业组非官方方案记录与参考实现。
-Rank 32/689, Top 4.6%, Public AUC 0.851365. 最终精确 recipe 不在公开仓库披露。
+Rank 35/689, Top 5.1%, Public AUC 0.851365. 最终精确 recipe 不在公开仓库披露。
 ```
 
 ## 免责声明
