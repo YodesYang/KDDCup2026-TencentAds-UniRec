@@ -1,3 +1,6 @@
+
+</think>
+
 # TencentUniRec-TAAC2026
 
 [中文 README](README.zh-CN.md)
@@ -66,7 +69,7 @@ The central lesson was that public score improvements came more from **validatio
 - Private platform logs, copied leaderboard screenshots, user IDs, or workspace paths.
 - Any credential, account, or platform-specific runtime state.
 
-To run the code, place the official competition data under a local `data/` directory or pass `--data_dir /path/to/data`.
+To run the code, place the official competition data under a local `data/` directory (containing `schema.json` and `*.parquet` files) or pass `--data_dir /path/to/data`.
 
 ## Quick Start
 
