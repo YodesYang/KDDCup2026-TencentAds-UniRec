@@ -17,6 +17,11 @@ Unofficial solution notes and reference implementation for the **TAAC x KDD Cup 
 | Exact final recipe | Withheld from the public repository |
 | Task | Large-scale advertising pCVR prediction |
 
+## Team Contributions
+
+- [Yuhong Deng](https://github.com/yuhona): sample distribution analysis, data processing, and competition submissions.
+- [Xingji Yang](https://github.com/YodesYang): competition team member and repository maintainer.
+
 ## Highlights
 
 - Starts from a cleaned competition baseline and documents how the solution evolved.
