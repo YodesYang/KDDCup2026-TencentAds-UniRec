@@ -17,6 +17,11 @@ TAAC x KDD Cup 2026 腾讯广告算法大赛工业组的非官方方案记录与
 | 最终精确 recipe | 不在公开仓库披露 |
 | 任务 | 大规模广告 pCVR 预估 |
 
+## 团队分工
+
+- [Yuhong Deng](https://github.com/yuhona)：样本分布分析、数据处理和比赛提交。
+- [Xingji Yang](https://github.com/YodesYang)：参赛队员和仓库维护者。
+
 ## 项目亮点
 
 - 从 cleaned baseline 出发，完整记录从 baseline 到最终版本的演进过程。
