@@ -17,6 +17,10 @@ TAAC x KDD Cup 2026 腾讯广告算法大赛工业组的非官方方案记录与
 | 最终精确 recipe | 不在公开仓库披露 |
 | 任务 | 大规模广告 pCVR 预估 |
 
+![官方网站队伍成绩](docs/assets/official_team_result.png)
+
+*官方比赛网站（[algo.qq.com](https://algo.qq.com)）队伍成绩页截图，已裁掉个人信息。复赛结束后公开 Leaderboard 仅保留 Top 20。*
+
 ## 团队分工
 
 - [Yuhong Deng](https://github.com/yuhona)：样本分布分析、数据处理和比赛提交。
@@ -68,7 +72,7 @@ TAAC x KDD Cup 2026 腾讯广告算法大赛工业组的非官方方案记录与
 
 - 官方训练 / 测试数据。
 - Checkpoints 或模型输出。
-- 私有平台日志、leaderboard 截图、用户 ID、平台路径。
+- 私有平台日志、用户 ID、平台路径（唯一的截图是上方已裁剪的官方队伍成绩页）。
 - 任何账号、凭证或平台运行时状态。
 
 如果要运行代码，请按照比赛规则获取或挂载官方数据，并通过 `--data_dir /path/to/data` 指定路径。

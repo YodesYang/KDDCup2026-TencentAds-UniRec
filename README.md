@@ -17,6 +17,10 @@ Unofficial solution notes and reference implementation for the **TAAC x KDD Cup 
 | Exact final recipe | Withheld from the public repository |
 | Task | Large-scale advertising pCVR prediction |
 
+![Official team result on algo.qq.com](docs/assets/official_team_result.png)
+
+*Team result page on the official competition site ([algo.qq.com](https://algo.qq.com)), personal information cropped. The public leaderboard only lists the Top 20 after the final round.*
+
 ## Team Contributions
 
 - [Yuhong Deng](https://github.com/yuhona): sample distribution analysis, data processing, and competition submissions.
@@ -68,7 +72,7 @@ The central lesson was that public score improvements came more from **validatio
 
 - Official train/test data.
 - Checkpoints or model outputs.
-- Private platform logs, copied leaderboard screenshots, user IDs, or workspace paths.
+- Private platform logs, user IDs, or workspace paths (the only screenshot is the cropped official team result above).
 - Any credential, account, or platform-specific runtime state.
 
 To run the code, place the official competition data under a local `data/` directory or pass `--data_dir /path/to/data`.
